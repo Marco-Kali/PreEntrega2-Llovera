@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    border-bottom: 10px;
+    position: static;
+}
+
+#slider{
+    border-top: 10px;
+}
+
+#footer{
+    background-color: #39a2e8;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 30px;
+    margin: auto;
+    /* align-items: center; */
+}
+
+@media only screen and (min-width: 769px) {
+
+}
