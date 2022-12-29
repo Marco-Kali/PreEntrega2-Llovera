@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.container__i{
+    display:grid;
+    grid-template-columns: 100%;
+
+}
 
 #navbar{
     border-bottom: 10px;
@@ -38,5 +43,69 @@
 }
 
 @media only screen and (min-width: 769px) {
+    .container__i{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 480px auto;
+        grid-template-areas: 
+        "n n"
+        "s p"
+        "f f"
+        ;
+    
+    }
 
+    #destacados{
+        display: absolute;
+        top: 50px;
+        right: 30px;
+    }
+
+    .productos{
+        grid-area: p;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 25px;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .navbar{
+        grid-area: n;
+    }
+
+    .footer{
+        grid-area: f;
+    }
+
+    #slider{
+        grid-area: s;
+        display: block;
+        
+    }
+
+    .container__c{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 600px auto;
+        grid-template-areas: 
+        "n n"
+        "t m"
+        "f f"
+        ;
+    
+    }    
+
+    .tuvieja{
+        grid-area: t;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mapeo{ 
+        grid-area: m;
+    }
 }

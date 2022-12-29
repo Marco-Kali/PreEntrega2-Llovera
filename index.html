@@ -10,7 +10,7 @@
     <link href="./public/css/style.css" rel="stylesheet">
 </head>
 
-<body id="container">
+<body class="container__i">
     <!-- Comienzo del hamburguesa -->
     <nav class="navbar bg-light fixed-top" id="navbar">
         <div class="container-fluid">
@@ -74,60 +74,63 @@
         </button>
     </div>
     <!-- Fin Slider -->
-    <!-- Cards -->
-    <h2>Productos destacados</h2>
-    <div class="card" style="width: 18rem;">
-        <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img src="./public/images/productos/home500.png">
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Affinity Home 500lts</h5>
-          <p class="card-text">$$$</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
-        </div>
-    </div>
 
-
-    <div class="card" style="width: 18rem;">
-        <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img src="./public/images/productos/homeConBase1100.png">
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Affinity Home con base 1100lts</h5>
-          <p class="card-text">$$$</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
-        </div>
-      </div>
-
-
-    <div class="card" style="width: 18rem;">
-        <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img src="./public/images/productos/tanqueplast.png">
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Affinity plast 500lts</h5>
-          <p class="card-text">$$$</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
-        </div>
-      </div>
-
-
-    <div class="card" style="width: 18rem;">
-        <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <img src="./public/images/productos/Tanqueslim.png">
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Affinity Slim 750lts</h5>
-          <p class="card-text">$$$</p>
-          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+    <!-- Comienzo de cards -->
+    <div class="productos__i">
+        <h2 id="destacados">Productos destacados</h2>
+        <div class="productos">
+            <div class="card card1" style="width: 15rem;">
+                <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg"
+                    role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="./public/images/productos/home500.png">
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">Affinity Home 500lts</h5>
+                    <p class="card-text">$$$</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card card2" style="width: 15rem;">
+                <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg"
+                    role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="./public/images/productos/homeConBase1100.png">
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">Affinity Home con base 1100lts</h5>
+                    <p class="card-text">$$$</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card card3" style="width: 15rem;">
+                <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg"
+                    role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="./public/images/productos/tanqueplast.png">
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">Affinity plast 500lts</h5>
+                    <p class="card-text">$$$</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card card4" style="width: 15rem;">
+                <svg class="bd-placeholder-img card-img-top" width="0" height="10" xmlns="http://www.w3.org/2000/svg"
+                    role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="./public/images/productos/Tanqueslim.png">
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">Affinity Slim 750lts</h5>
+                    <p class="card-text">$$$</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Fin Cards -->
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <footer class="text-center text-white footer" style="background-color: #f1f1f1;">
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright:
-          <a class="text-dark" href="https://icgaguas.com/#!/-bienvenido/">ICG Aguas</a>
+            © 2022 Copyright:
+            <a class="text-dark" href="https://icgaguas.com/#!/-bienvenido/">ICG Aguas</a>
         </div>
         <!-- Copyright -->
     </footer>
